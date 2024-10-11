@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav img {
+            transform: scale(0.3);
+        }
+
+        nav ul {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+        }
+
+        nav ul li {
+            list-style: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 8px;
+        }
+
+        main {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .container {
+            box-sizing: border-box;
+            height: 60vh;
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .box {
+            height: 15vh;
+            width: 25vw;
+            background-color: rgb(248, 246, 246);
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            border: 2px solid lightblue;
+            font-size: xx-small;
+            color: white;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blue{
+            border: 2px solid greenyellow;
+            font-size: xx-small;
+            color: white;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About Us</li>
+                    <li>Security and Compliance</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                English
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"> <a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Deutch
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Italian
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Spanish
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                French
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Brasilian Portuguese
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Japanese
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Korean
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Chinese
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+            <div class="box">
+                Traditional Chinese
+                <span><a href="">Download 32-bit</a></span>
+                <span class="blue"><a href="">Download 64-bit</a></span>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.box{
+    height: 56px;
+    width: 56px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+    </div>
+    <script>
+        console.log("DOM")
+document.body.childNodes
+let rndmclr = Math.random()
+if rndmclr>0.5{
+    document.body.childNodes(2).styles.color="red"
+    document.body.childNodes(2).styles.backgroundcolor="yellow"
+}
+else{
+    document.body.childNodes(2).styles.color="yellow"
+    document.body.childNodes(2).styles.backgroundcolor="red"
+}
+console.log(rndmclr)
+    </script>
+</body>
+</html>

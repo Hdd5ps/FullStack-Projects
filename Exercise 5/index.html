@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: blue;
+        }
+
+        nav {
+            background-color: violet;
+        }
+
+        nav ul li {
+            position: sticky;
+            display: inline-flex;
+            padding: 23px;
+            margin: 23px;
+            list-style: none;
+        }
+
+        .boxes {
+            display: flex;
+            padding: 23px;
+            gap: 23px;
+            justify-content: center;
+        }
+
+        .box1 {
+            border: 2px solid black;
+            height: 233px;
+            width: 233px;
+            background-color: green;
+        }
+
+        .box2 {
+            border: 2px solid black;
+            height: 233px;
+            width: 233px;
+            background-color: rgb(110, 133, 110);
+        }
+
+.container{
+    border-radius: 12px;
+    border: 2px solid black;
+}    
+
+    .image {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;   
+        shape-image-threshold: calc(); 
+        
+        }
+
+        footer {
+            bord
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="/">Kamal</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Contact</a></li>
+                <li><a href="/">Services</a></li>
+            </ul>
+        </nav>
+        <div class="boxes">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="container">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas modi dolorum explicabo maiores autem qui
+            est error, nihil quaerat labore doloremque amet velit?
+        </div>
+        <div class="image">
+            <img src="data:image/png;base64,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"
+                alt="">
+        </div>
+        <footer>
+            copyright tm kabir website
+        </footer>
+    </main>
+</body>
+
+</html>
